@@ -8,3 +8,6 @@ Since I dont know how to show the GUI of an application written in the Java-Edit
 http://i.imgur.com/qUccztP.png
 
 
+Functions
+===========
+
