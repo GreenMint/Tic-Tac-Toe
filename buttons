@@ -1,0 +1,5 @@
+/*  The buttons one clicks to make ones turn and mark that button with either 'X' or 'O' only call one function.
+ *  The function that is called is turn() with the parameter i. i is the assigned number of the button which ranges from 0-8.
+ */
+ 
+ turn(i); 
