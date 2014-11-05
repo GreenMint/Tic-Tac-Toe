@@ -3,3 +3,61 @@
  */
  
  turn(i); 
+
+//-----------------------------------------------------------------------------------------
+
+// Code for the 'Reset Score' button
+
+    s1_ = "";
+    s2_ = "";
+    s1 = s2 = 0;
+    label2.setText(s1_);
+    label3.setText(s2_);
+    
+// Code for the 'Choose' button
+
+    item = choice1.getSelectedItem();
+    if (item == "Player vs Player") {
+      gameMode = 1;
+      newGame();
+    } 
+    else if(item == "Player vs Computer(easy)"){
+      gameMode = 2;
+      newGame();
+    } 
+    else if(item == "Player vs Computer(normal)"){
+      gameMode = 3;
+      newGame();
+    } 
+    else if(item == "Player vs Computer(hard)"){
+      gameMode = 4;
+      newGame();
+    } 
+    
+    
+//  Code for the 'New Game' button
+
+   //--- Variables used in the 'New Game' button but initialised outside of it ---
+
+      private String item = "";
+      private int gameMode = 1;
+  
+   //-----------------------------------------------------------------------------  
+
+    label1.setText("Player 1");
+    for (int i=0; i<=8; i++) {
+      b[i] = 0;
+    } 
+    
+    button1.setLabel("");
+    button2.setLabel("");
+    button3.setLabel("");
+    button4.setLabel("");
+    button5.setLabel("");
+    button6.setLabel("");
+    button7.setLabel("");
+    button8.setLabel("");
+    button9.setLabel("");
+    player = true;
+    game = true;
+    label7.setText("");
