@@ -15,8 +15,8 @@ turn() :
 
     Game mode 1 (Player vs. Player):
       At first it is checked whether the game is still running or not by using a boolean. Then if it is the turn of 
-      Player 1 or Player 2. At last if the button hasnt been pressed yet is assigned the variable of the Player and the
-      'X' for Player 1 or the 'O' for Player 2.
+      Player 1 or Player 2. At last if the button hasnt been pressed yet is assigned the variable of the Player and 
+      the 'X' for Player 1 or the 'O' for Player 2.
       
     Game mode 2 (Player vs. Computer(easy)): 
       The choice by this computer is made by creating a random number between 0 and 8 using the computer() function.
