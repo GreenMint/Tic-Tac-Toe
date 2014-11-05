@@ -37,7 +37,7 @@
     
 //  Code for the 'New Game' button
 
-   //--- Variables used in the 'New Game' button but initialised outside of it ---
+   //--- Variables used in the 'New Game' button but declared outside of it ---
 
       private String item = "";
       private int gameMode = 1;
