@@ -1,0 +1,35 @@
+  import java.awt.*;
+  import java.awt.event.*;
+  import javax.swing.*;
+  import javax.swing.event.*;
+  
+  
+  private Button button1 = new Button();
+  private Button button2 = new Button();
+  private Button button3 = new Button();
+  private Button button4 = new Button();
+  private Button button5 = new Button();
+  private Button button6 = new Button();
+  private Button button7 = new Button();
+  private Button button8 = new Button();
+  private Button button9 = new Button();
+  private Label label1 = new Label();
+  private Button button10 = new Button();
+  private boolean player = true;
+  private int[] b = {0,0,0,0,0,0,0,0,0};
+  
+  private boolean game = true;
+  private Label label2 = new Label();
+  private Label label3 = new Label();
+  private int s1 = 0;
+  private int s2 = 0;
+  private String s1_ = "";
+  private String s2_ = ""; 
+  private Label label4 = new Label();
+  private Label label5 = new Label();
+  private Label label6 = new Label();
+  private Button button11 = new Button();
+  private Label label7 = new Label();
+  private Choice choice1 = new Choice();
+  private Button button12 = new Button();
+  private Label label8 = new Label();
