@@ -15,8 +15,8 @@ turn() :
 
     Game mode 1 (Player vs. Player):
       At first it is checked whether the game is still running or not by using a boolean. Then if it is the turn of 
-      Player 1 or Player 2. At last the button which is clicked is assigned the variable of the Player(p1 - 1, p2 - 2)
-      and the 'X' for Player 1 or the 'O' for Player 2 if the button has not yet been pressed.
+      Player 1 or Player 2. At last if the button hasnt been pressed yet is assigned the variable of the Player and the
+      'X' for Player 1 or the 'O' for Player 2.
       
     Game mode 2 (Player vs. Computer(easy)): 
       The choice by this computer is made by creating a random number between 0 and 8 using the computer() function.
@@ -39,7 +39,8 @@ sLabel() :
     
 block() :
 
-    The block() function is responsible for checking whether or not the player could win the next turn and preventing it.
+    The block() function is responsible for checking whether or not the player could win the next turn and
+    preventing it.
     
 win() :
 
@@ -47,9 +48,9 @@ win() :
     
 check() :
 
-    Checking if there is a winning condition met by either player or if there arent any more possible moves to make. If so
-    the game ends and the winner is displayed. Draw is displayed if neither of the players won. The score of the winner is 
-    raised by one.
+    Checking if there is a winning condition met by either player or if there arent any more possible moves to make. 
+    If so the game ends and the winner is displayed. Draw is displayed if neither of the players won. The score of 
+    the winner is raised by one.
     
     
 
