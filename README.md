@@ -1,7 +1,7 @@
 Tic-Tac-Toe
 ===========
 
-This is the code of the game Tic Tac Toe I created during class last year when I was finished with the other assignments.
+This is the code of the game Tic Tac Toe I coded during class last year when I was finished with the other assignments.
 The code is sloppy and not refactored. 
 
 Since I dont know how to show the GUI of an application written in the Java-Editor on github, here is a screenshot:
